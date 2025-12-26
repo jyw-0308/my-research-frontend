@@ -96,7 +96,7 @@ def _render_feedback_panel() -> None:
     st.markdown("""
     <div style="
         height: 40px;
-        background-color: #22c55e;
+        background-color: #38bdf8;
         border-radius: 8px;
         margin: 1.5rem 0 1.8rem 0;
     "></div>
@@ -136,18 +136,18 @@ def main() -> None:
         footer {visibility: hidden;}
         
         .chat-container {
-            background-color: #f0f2f6;
+            background-color: #fca5a5;
             padding: 1.5rem;
             border-radius: 0.5rem;
             margin: 0.5rem 0;
-            border: 5px solid #ef4444;
+            border: 5px solid #fca5a5;
         }
         .idea-container {
-            background: linear-gradient(180deg, #f3f4f6 0%, #e5e7eb 100%);
+            background-color: #86efac;
             padding: 1.5rem;
             border-radius: 0.5rem;
             margin: 0.5rem 0;
-            border: 5px solid #22c55e;
+            border: 5px solid #86efac;
         }
         /* 오른쪽 패널 내부의 divider(hr) 스타일 */
         [data-testid="column"] hr {
